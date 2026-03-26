@@ -13,7 +13,6 @@ A função `BuscaLinear` percorre o vetor do início até o fim utilizando um la
 
 A cada iteração, é feita uma comparação entre o elemento do vetor e o valor procurado:
 
-```c
 if(lista[i] == busca)
 
 O número de comparações é controlado pela variável comparacoes, que é incrementada a cada passo do loop.

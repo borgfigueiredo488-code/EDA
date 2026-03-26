@@ -21,6 +21,7 @@ void BuscaLinear(int lista[], int tamanho, int busca)
     if (encontrou == 0)
     {
         printf("número %d não encontrado\n", busca);
+        printf("Comparações realizadas: %d\n", comparacoes);
     }
 }
 
@@ -56,5 +57,6 @@ void BuscaBinaria(int lista[], int tamanho, int busca){
     if (encontrou == 0)
     {
         printf("número %d não encontrado\n", busca);
+        printf("Comparações realizadas: %d\n", comparacoes);
     }
 }
